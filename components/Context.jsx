@@ -61,12 +61,10 @@ const Context = ({children}) => {
 
   const handleShowMore = () => {
     setLimit(limit => limit + 15)
-    document.getElementById('car-catalogue').scrollIntoView({behavior : 'smooth'})
   }
 
   const handleShowLess = () => {
     setLimit(limit => limit - 8)
-    document.getElementById('car-catalogue').scrollIntoView({behavior : 'smooth'})
   }
 
   return (
