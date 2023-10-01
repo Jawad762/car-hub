@@ -6,7 +6,7 @@ import CarDetail from "@/components/CarDetail";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center w-full h-full">
+    <main className="grid w-full h-full max-sm:overflow-x-hidden">
     <Header/>
     <Homepage/>
     <CarCatalogue/>

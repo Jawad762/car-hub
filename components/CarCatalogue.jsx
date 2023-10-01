@@ -45,7 +45,7 @@ const CarCatalogue = () => {
             </section>
 
             {/* section for the inputs and dropdown menu */}
-            <section className='relative z-0 flex flex-row justify-between px-16 max-lg:flex-col max-lg:px-12 max-lg:gap-4'>
+            <section className='relative z-0 flex flex-row justify-between px-16 max-lg:flex-col max-lg:px-8 max-lg:gap-4'>
                 <div className='relative flex items-center w-7/12 h-12 gap-10 pl-4 border rounded-full bg-slate-50 max-lg:w-full'>
                     <div className='flex items-center w-5/12 gap-2 max-md:w-11/12'>
                         <Image height={30} width={30} className='cursor-pointer' onClick={(e) => handleDropDown(e)} src='https://raw.githubusercontent.com/adrianhajdin/project_next13_car_showcase/69c984204b8be5b600c91f994da9a586fd6b7ad2/public/car-logo.svg'></Image>
